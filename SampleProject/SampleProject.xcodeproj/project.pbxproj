@@ -66,6 +66,8 @@
 		BDB7411523283BF10024E8BC /* CardCollectionViewLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7411423283BF10024E8BC /* CardCollectionViewLayoutDelegate.swift */; };
 		BDB7411723283C370024E8BC /* CardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7411623283C370024E8BC /* CardCollectionViewLayout.swift */; };
 		BDB741192329447E0024E8BC /* Build.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB741182329447E0024E8BC /* Build.storyboard */; };
+		BDE8E3442329749800C93844 /* PassFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8E3432329749800C93844 /* PassFormViewController.swift */; };
+		BDE8E346232974A800C93844 /* PassForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE8E345232974A800C93844 /* PassForm.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		BDB7411423283BF10024E8BC /* CardCollectionViewLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewLayoutDelegate.swift; sourceTree = "<group>"; };
 		BDB7411623283C370024E8BC /* CardCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewLayout.swift; sourceTree = "<group>"; };
 		BDB741182329447E0024E8BC /* Build.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Build.storyboard; sourceTree = "<group>"; };
+		BDE8E3432329749800C93844 /* PassFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassFormViewController.swift; sourceTree = "<group>"; };
+		BDE8E345232974A800C93844 /* PassForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassForm.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 				84841D621F4A1625000F1A1B /* Root */,
 				84841D611F4A1600000F1A1B /* Startup */,
 				BDB741112327F57C0024E8BC /* Build */,
+				BDE8E3422329747900C93844 /* PassForm */,
 				84841D861F4A28E6000F1A1B /* All Rewards */,
 				BDB7410A2326D8C10024E8BC /* Validate */,
 				84841D9D1F4A3D0C000F1A1B /* ImageDownloading */,
@@ -377,6 +382,15 @@
 			name = Build;
 			sourceTree = "<group>";
 		};
+		BDE8E3422329747900C93844 /* PassForm */ = {
+			isa = PBXGroup;
+			children = (
+				BDE8E3432329749800C93844 /* PassFormViewController.swift */,
+				BDE8E345232974A800C93844 /* PassForm.storyboard */,
+			);
+			name = PassForm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -488,6 +502,7 @@
 				84841D601F4A158E000F1A1B /* rewardsConfig.json in Resources */,
 				84841D8A1F4A2932000F1A1B /* Rewards.storyboard in Resources */,
 				8419831E1F48871700DF53ED /* LaunchScreen.storyboard in Resources */,
+				BDE8E346232974A800C93844 /* PassForm.storyboard in Resources */,
 				84841D701F4A1B0B000F1A1B /* Main.storyboard in Resources */,
 				84841D721F4A1B15000F1A1B /* LaunchScreen.storyboard in Resources */,
 				BD009B3C23296680004BC9E0 /* rewards_test.json in Resources */,
@@ -523,6 +538,7 @@
 				84841D3C1F4A0893000F1A1B /* Observable.swift in Sources */,
 				84841DB11F4A5E64000F1A1B /* RewardCollectionViewCell.swift in Sources */,
 				84841D801F4A211D000F1A1B /* FadeAnimation.swift in Sources */,
+				BDE8E3442329749800C93844 /* PassFormViewController.swift in Sources */,
 				84841DA31F4A3D62000F1A1B /* FetchImageOperation.swift in Sources */,
 				84841D781F4A1BEB000F1A1B /* Named.swift in Sources */,
 				84841D361F4A0611000F1A1B /* RootViewController.swift in Sources */,

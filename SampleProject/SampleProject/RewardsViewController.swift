@@ -19,12 +19,9 @@ class RewardsViewController: UIViewController {
 
    lazy var modelController: RewardsViewModel = RewardsViewModel()
 
-    let cellHeightRatio: CGFloat = 168.0 / 320.0
-
     // MARK: - IBOutlets
 
     @IBOutlet weak var collectionView: CardCollectionView?
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +35,12 @@ class RewardsViewController: UIViewController {
         }
 
         title = "Rewards"
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        modelController.refreshRewards()
     }
 
     deinit {
