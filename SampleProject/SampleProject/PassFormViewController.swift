@@ -17,10 +17,23 @@ class PassFormViewController: UIViewController, UIPopoverPresentationControllerD
     
     var textSelectColor: UIColor?
     
+    var type: RewardType?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Build a Reward"
+        guard let type = type else { return }
+        
+        switch type {
+        case .coupon:
+            title = "Build a Coupon"
+        case .businessCard:
+            title = "Build a Business Card"
+        case .event:
+            title = "Build an Event"
+        case .loyaltyCard:
+            title = "Build a Loyalty Card"
+        }
     }
     
     // Override the iPhone behavior that presents a popover as fullscreen

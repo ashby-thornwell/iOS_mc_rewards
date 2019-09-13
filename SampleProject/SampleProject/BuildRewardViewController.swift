@@ -8,15 +8,17 @@
 
 import UIKit
 
+enum RewardType {
+    case coupon
+    case event
+    case loyaltyCard
+    case businessCard
+}
+
+
 class BuildRewardViewController: UIViewController {
 
-    enum RewardType {
-        case coupon
-        case event
-        case loyaltyCard
-        case businessCard
-    }
-    
+   
     @IBAction func createCoupon(_ sender: Any) {
         presentPassForm(type: RewardType.coupon)
         
@@ -35,9 +37,12 @@ class BuildRewardViewController: UIViewController {
     }
     
     func presentPassForm(type: RewardType) {
-        let passFormVC = PassFormViewController()
+        
+        let passFormStoryboard = UIStoryboard(name: "PassForm", bundle: nil)
+        let passFormVC = passFormStoryboard.instantiateInitialViewController() as! PassFormViewController
+    
         passFormVC.type = type
-        self.navigationController?.pushViewController(passFormVC, animated: true)
+        navigationController?.pushViewController(passFormVC, animated: true)
     }
     
     @IBOutlet weak var couponContainerView: UIView!

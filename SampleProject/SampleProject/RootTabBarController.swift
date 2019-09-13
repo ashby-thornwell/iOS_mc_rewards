@@ -43,8 +43,8 @@ class RootTabBarController: UITabBarController {
         buildTabItem.title = "Build Rewards"
         buildTabItem.image = UIImage(named: "Build Icon")
         
-        let buildStoryboard = UIStoryboard(name: "PassForm", bundle: nil)
-        let buildViewController = buildStoryboard.instantiateInitialViewController() as! PassFormViewController
+        let buildStoryboard = UIStoryboard(name: "Build", bundle: nil)
+        let buildViewController = buildStoryboard.instantiateInitialViewController() as! BuildRewardViewController
         buildViewController.tabBarItem = buildTabItem
         let buildNavigationController = UINavigationController(rootViewController: buildViewController)
         
