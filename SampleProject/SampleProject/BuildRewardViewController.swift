@@ -9,26 +9,41 @@
 import UIKit
 
 class BuildRewardViewController: UIViewController {
+
+    enum RewardType {
+        case coupon
+        case event
+        case loyaltyCard
+        case businessCard
+    }
+    
+    @IBAction func createCoupon(_ sender: Any) {
+        presentPassForm(type: RewardType.coupon)
+        
+    }
+    
+    @IBAction func createEvent(_ sender: Any) {
+        presentPassForm(type: RewardType.event)
+    }
+    
+    @IBAction func createLoyaltyCard(_ sender: Any) {
+        presentPassForm(type: RewardType.loyaltyCard)
+    }
+    
+    @IBAction func createBusinessCard(_ sender: Any) {
+        presentPassForm(type: RewardType.businessCard)
+    }
+    
+    func presentPassForm(type: RewardType) {
+        let passFormVC = PassFormViewController()
+        passFormVC.type = type
+        self.navigationController?.pushViewController(passFormVC, animated: true)
+    }
+    
     @IBOutlet weak var couponContainerView: UIView!
     @IBOutlet weak var eventContainerView: UIView!
     @IBOutlet weak var loyaltyCardContainerView: UIView!
     @IBOutlet weak var businessCardContainerView: UIView!
-    
-    @IBAction func createCoupon(_ sender: Any) {
-        print("Create coupon button tapped.")
-    }
-    
-    @IBAction func createEvent(_ sender: Any) {
-        print("Create event button tapped.")
-    }
-    
-    @IBAction func createBusinessCard(_ sender: Any) {
-        print("Create business card button tapped.")
-    }
-    
-    @IBAction func createLoyaltyCard(_ sender: Any) {
-        print("Create loyalty card button tapped.")
-    }
     
     func addBorderToContainerView(container: UIView) {
         // Clear background color.
