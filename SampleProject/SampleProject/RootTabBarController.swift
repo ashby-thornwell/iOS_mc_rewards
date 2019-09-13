@@ -40,16 +40,16 @@ class RootTabBarController: UITabBarController {
         }
         
         let buildTabItem = UITabBarItem()
-        buildTabItem.title = "Build"
+        buildTabItem.title = "Build Rewards"
         buildTabItem.image = UIImage(named: "Build Icon")
         
-        let buildStoryboard = UIStoryboard(name: RootTabBarControllerConstants.build, bundle: nil)
-        let buildViewController = buildStoryboard.instantiateInitialViewController() as! BuildRewardViewController
+        let buildStoryboard = UIStoryboard(name: "PassForm", bundle: nil)
+        let buildViewController = buildStoryboard.instantiateInitialViewController() as! PassFormViewController
         buildViewController.tabBarItem = buildTabItem
         let buildNavigationController = UINavigationController(rootViewController: buildViewController)
         
         let rewardTabItem = UITabBarItem()
-        rewardTabItem.title = "Rewards"
+        rewardTabItem.title = "View Rewards"
         rewardTabItem.image = UIImage(named: "Reward Icon")
         
         let rewardStoryboard = UIStoryboard(name: RootTabBarControllerConstants.rewards, bundle: nil)
@@ -59,7 +59,7 @@ class RootTabBarController: UITabBarController {
 
         
         let validateTabItem = UITabBarItem()
-        validateTabItem.title = "Validate"
+        validateTabItem.title = "Validate Rewards"
         validateTabItem.image = UIImage(named: "Validate Icon")
         
         let validateViewController = ValidationViewController()

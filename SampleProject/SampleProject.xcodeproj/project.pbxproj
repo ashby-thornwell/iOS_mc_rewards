@@ -68,6 +68,8 @@
 		BDB741192329447E0024E8BC /* Build.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB741182329447E0024E8BC /* Build.storyboard */; };
 		BDE8E3442329749800C93844 /* PassFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8E3432329749800C93844 /* PassFormViewController.swift */; };
 		BDE8E346232974A800C93844 /* PassForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE8E345232974A800C93844 /* PassForm.storyboard */; };
+		BDE8E34A232998C600C93844 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8E349232998C600C93844 /* ColorPickerViewController.swift */; };
+		BDE8E34C2329993A00C93844 /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDE8E34B2329993A00C93844 /* colorPalette.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +157,8 @@
 		BDB741182329447E0024E8BC /* Build.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Build.storyboard; sourceTree = "<group>"; };
 		BDE8E3432329749800C93844 /* PassFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassFormViewController.swift; sourceTree = "<group>"; };
 		BDE8E345232974A800C93844 /* PassForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassForm.storyboard; sourceTree = "<group>"; };
+		BDE8E349232998C600C93844 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		BDE8E34B2329993A00C93844 /* colorPalette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 		8419830F1F48871700DF53ED /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				BDE8E34B2329993A00C93844 /* colorPalette.plist */,
 				841983101F48871700DF53ED /* AppDelegate.swift */,
 				84841D621F4A1625000F1A1B /* Root */,
 				84841D611F4A1600000F1A1B /* Startup */,
@@ -385,8 +390,9 @@
 		BDE8E3422329747900C93844 /* PassForm */ = {
 			isa = PBXGroup;
 			children = (
-				BDE8E3432329749800C93844 /* PassFormViewController.swift */,
 				BDE8E345232974A800C93844 /* PassForm.storyboard */,
+				BDE8E3432329749800C93844 /* PassFormViewController.swift */,
+				BDE8E349232998C600C93844 /* ColorPickerViewController.swift */,
 			);
 			name = PassForm;
 			sourceTree = "<group>";
@@ -506,6 +512,7 @@
 				84841D701F4A1B0B000F1A1B /* Main.storyboard in Resources */,
 				84841D721F4A1B15000F1A1B /* LaunchScreen.storyboard in Resources */,
 				BD009B3C23296680004BC9E0 /* rewards_test.json in Resources */,
+				BDE8E34C2329993A00C93844 /* colorPalette.plist in Resources */,
 				BDB741192329447E0024E8BC /* Build.storyboard in Resources */,
 				BDB7410E2326DDA70024E8BC /* mailchimp_loading.mp4 in Resources */,
 				8419831B1F48871700DF53ED /* Assets.xcassets in Resources */,
@@ -559,6 +566,7 @@
 				84841D561F4A0C81000F1A1B /* Logging.swift in Sources */,
 				84841D521F4A08F4000F1A1B /* GroupOperation.swift in Sources */,
 				84841D6A1F4A1840000F1A1B /* ConfigManager.swift in Sources */,
+				BDE8E34A232998C600C93844 /* ColorPickerViewController.swift in Sources */,
 				84841D741F4A1B4A000F1A1B /* NSManagedObjectContext+Helpers.swift in Sources */,
 				841983111F48871700DF53ED /* AppDelegate.swift in Sources */,
 				84841D441F4A08BB000F1A1B /* NotifyingSubOperation.swift in Sources */,

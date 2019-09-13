@@ -34,7 +34,7 @@ class RewardsViewController: UIViewController {
             modelController.bootstrapper = appDelegate.bootstrapper
         }
 
-        title = "Rewards"
+        title = "View Rewards"
     }
     
     override func viewWillAppear(_ animated: Bool) {
