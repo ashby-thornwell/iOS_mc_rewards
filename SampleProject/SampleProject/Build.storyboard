@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4w-0o-n8w" userLabel="Centered Container View">
-                                <rect key="frame" x="20" y="174" width="374" height="558"/>
+                                <rect key="frame" x="5" y="144" width="404" height="618"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFg-S7-eSw" userLabel="Coupon Container View">
                                         <rect key="frame" x="15" y="15" width="150" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UZq-ts-f07">
-                                                <rect key="frame" x="23.98022176260838" y="16.925531944854356" width="100" height="120.5"/>
+                                                <rect key="frame" x="23.98022176260838" y="16.925531944854349" width="100" height="120.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSB-Xw-o2k">
@@ -54,10 +54,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6l-Yn-fe7" userLabel="Event Container View">
-                                        <rect key="frame" x="209" y="15" width="150" height="150"/>
+                                        <rect key="frame" x="239" y="15" width="150" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EpA-2l-7a5">
-                                                <rect key="frame" x="23.068624501008799" y="16.925531944854356" width="100" height="120.5"/>
+                                                <rect key="frame" x="23.068624501008799" y="16.925531944854349" width="100" height="120.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ft3-rf-qAJ">
@@ -84,10 +84,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0V-tG-Zsh" userLabel="Loyalty Card Container View">
-                                        <rect key="frame" x="15" y="393" width="150" height="150"/>
+                                        <rect key="frame" x="15" y="453" width="150" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ioN-8w-K8x">
-                                                <rect key="frame" x="24.261056976634791" y="16.082242846302051" width="100" height="120.5"/>
+                                                <rect key="frame" x="24.261056976634791" y="16.082242846302044" width="100" height="120.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqc-U1-jSL">
@@ -114,10 +114,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYK-IM-xe6" userLabel="Business Card Container View">
-                                        <rect key="frame" x="209" y="393" width="150" height="150"/>
+                                        <rect key="frame" x="239" y="453" width="150" height="150"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q3l-NY-qwu">
-                                                <rect key="frame" x="20.68025171149975" y="19.703476183591135" width="109.5" height="120.5"/>
+                                                <rect key="frame" x="20.680251711499757" y="19.703476183591128" width="109.5" height="120.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6O-ex-cn0">
@@ -160,10 +160,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="K4w-0o-n8w" firstAttribute="top" secondItem="m9O-X5-p49" secondAttribute="top" constant="130" id="8Qa-8I-NDK" userLabel="Centered Container View.top = Safe Area.top + 25"/>
+                            <constraint firstItem="K4w-0o-n8w" firstAttribute="top" secondItem="m9O-X5-p49" secondAttribute="top" constant="100" id="8Qa-8I-NDK"/>
                             <constraint firstItem="K4w-0o-n8w" firstAttribute="centerY" secondItem="m9O-X5-p49" secondAttribute="centerY" id="NvH-aj-0Yt"/>
                             <constraint firstItem="K4w-0o-n8w" firstAttribute="centerX" secondItem="m9O-X5-p49" secondAttribute="centerX" id="X2W-ry-Q9C"/>
-                            <constraint firstItem="K4w-0o-n8w" firstAttribute="leading" secondItem="m9O-X5-p49" secondAttribute="leading" constant="20" id="oBv-9l-XFr"/>
+                            <constraint firstItem="K4w-0o-n8w" firstAttribute="leading" secondItem="m9O-X5-p49" secondAttribute="leading" constant="5" id="oBv-9l-XFr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="m9O-X5-p49"/>
                     </view>

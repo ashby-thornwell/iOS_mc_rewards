@@ -59,6 +59,7 @@
 		84841DB31F4A5EF9000F1A1B /* RewardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84841DB21F4A5EF9000F1A1B /* RewardCellDelegate.swift */; };
 		84841DB81F4A7A79000F1A1B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84841DB71F4A7A79000F1A1B /* LoadingViewController.swift */; };
 		AFFB01C323332D0C00ED6215 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB01C223332D0C00ED6215 /* LoginViewController.swift */; };
+		AFDC7386232C0D2E0048CE5E /* ValidationScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC7385232C0D2E0048CE5E /* ValidationScannerViewController.swift */; };
 		BD009B3C23296680004BC9E0 /* rewards_test.json in Resources */ = {isa = PBXBuildFile; fileRef = BD009B3B23296680004BC9E0 /* rewards_test.json */; };
 		BDB7410C2326D8E00024E8BC /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7410B2326D8E00024E8BC /* ValidationViewController.swift */; };
 		BDB7410E2326DDA70024E8BC /* mailchimp_loading.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDB7410D2326DDA70024E8BC /* mailchimp_loading.mp4 */; };
@@ -147,6 +148,7 @@
 		84841DB21F4A5EF9000F1A1B /* RewardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardCellDelegate.swift; sourceTree = "<group>"; };
 		84841DB71F4A7A79000F1A1B /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		AFFB01C223332D0C00ED6215 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFDC7385232C0D2E0048CE5E /* ValidationScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationScannerViewController.swift; sourceTree = "<group>"; };
 		BD009B3B23296680004BC9E0 /* rewards_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rewards_test.json; sourceTree = "<group>"; };
 		BDB7410B2326D8E00024E8BC /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		BDB7410D2326DDA70024E8BC /* mailchimp_loading.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mailchimp_loading.mp4; sourceTree = "<group>"; };
@@ -372,6 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				BDB7410B2326D8E00024E8BC /* ValidationViewController.swift */,
+				AFDC7385232C0D2E0048CE5E /* ValidationScannerViewController.swift */,
 			);
 			name = Validate;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				84841D5A1F4A0E2B000F1A1B /* Utils.swift in Sources */,
 				84841D541F4A0AC1000F1A1B /* Endpoint.swift in Sources */,
 				84841DAB1F4A5A6E000F1A1B /* RewardsViewModel.swift in Sources */,
+				AFDC7386232C0D2E0048CE5E /* ValidationScannerViewController.swift in Sources */,
 				84841D581F4A0C8C000F1A1B /* SplashScreenViewController.swift in Sources */,
 				84841D5E1F4A0F41000F1A1B /* FetchDataFeedOperation.swift in Sources */,
 				84841D991F4A3550000F1A1B /* DataFeed+CoreDataClass.swift in Sources */,
@@ -731,6 +735,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -749,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
