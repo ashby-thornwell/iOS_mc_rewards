@@ -27,7 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let splashViewController = window?.rootViewController as? SplashScreenViewController {
             splashViewController.bootstrapper = bootstrapper
         }
-
+        
+        let rootController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginViewController")
+        self.window?.rootViewController = rootController
+        
         return true
     }
 

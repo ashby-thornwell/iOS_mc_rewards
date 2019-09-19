@@ -58,6 +58,7 @@
 		84841DB11F4A5E64000F1A1B /* RewardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84841DB01F4A5E64000F1A1B /* RewardCollectionViewCell.swift */; };
 		84841DB31F4A5EF9000F1A1B /* RewardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84841DB21F4A5EF9000F1A1B /* RewardCellDelegate.swift */; };
 		84841DB81F4A7A79000F1A1B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84841DB71F4A7A79000F1A1B /* LoadingViewController.swift */; };
+		AFFB01C323332D0C00ED6215 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB01C223332D0C00ED6215 /* LoginViewController.swift */; };
 		BD009B3C23296680004BC9E0 /* rewards_test.json in Resources */ = {isa = PBXBuildFile; fileRef = BD009B3B23296680004BC9E0 /* rewards_test.json */; };
 		BDB7410C2326D8E00024E8BC /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7410B2326D8E00024E8BC /* ValidationViewController.swift */; };
 		BDB7410E2326DDA70024E8BC /* mailchimp_loading.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BDB7410D2326DDA70024E8BC /* mailchimp_loading.mp4 */; };
@@ -145,6 +146,7 @@
 		84841DB01F4A5E64000F1A1B /* RewardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardCollectionViewCell.swift; sourceTree = "<group>"; };
 		84841DB21F4A5EF9000F1A1B /* RewardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardCellDelegate.swift; sourceTree = "<group>"; };
 		84841DB71F4A7A79000F1A1B /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		AFFB01C223332D0C00ED6215 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD009B3B23296680004BC9E0 /* rewards_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rewards_test.json; sourceTree = "<group>"; };
 		BDB7410B2326D8E00024E8BC /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		BDB7410D2326DDA70024E8BC /* mailchimp_loading.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mailchimp_loading.mp4; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				84841DB71F4A7A79000F1A1B /* LoadingViewController.swift */,
 				84841D7B1F4A1EF5000F1A1B /* VideoContainerView.swift */,
 				BDB7410D2326DDA70024E8BC /* mailchimp_loading.mp4 */,
+				AFFB01C223332D0C00ED6215 /* LoginViewController.swift */,
 			);
 			name = Startup;
 			sourceTree = "<group>";
@@ -571,6 +574,7 @@
 				84841D5E1F4A0F41000F1A1B /* FetchDataFeedOperation.swift in Sources */,
 				84841D991F4A3550000F1A1B /* DataFeed+CoreDataClass.swift in Sources */,
 				841983191F48871700DF53ED /* SampleProject.xcdatamodeld in Sources */,
+				AFFB01C323332D0C00ED6215 /* LoginViewController.swift in Sources */,
 				84841D4A1F4A08CD000F1A1B /* JSONProcessingSubOperation.swift in Sources */,
 				84841D9B1F4A3550000F1A1B /* Reward+CoreDataClass.swift in Sources */,
 				84841D3A1F4A088E000F1A1B /* Event.swift in Sources */,
@@ -730,6 +734,10 @@
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleProject/ChimpKit2/libGHUnitIPhone3_0-0.4.13",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.athornwell.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -744,6 +752,10 @@
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleProject/ChimpKit2/libGHUnitIPhone3_0-0.4.13",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.athornwell.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
